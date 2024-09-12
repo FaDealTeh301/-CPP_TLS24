@@ -51,6 +51,7 @@ int main() {
         string barangTemuan = BarangRandom(pilihan);
         cout << "Kamu menemukan: " << barangTemuan << "!\n";
         BarangDiambil.push_back(barangTemuan);
+        jumlahbarang++;
 
         cout << "\nSelanjutnya, apa yang akan kamu lakukan:\n";
         cout << "1. Melanjutkan Geledah rumah\n";
