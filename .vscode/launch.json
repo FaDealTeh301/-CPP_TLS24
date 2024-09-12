@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/predator/Documents/-CPP_TLS24",
-      "program": "c:/Users/predator/Documents/-CPP_TLS24/build/Debug/outDebug",
+      "cwd": "c:/Users/predator/Documents/KODINGAN C",
+      "program": "c:/Users/predator/Documents/KODINGAN C/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

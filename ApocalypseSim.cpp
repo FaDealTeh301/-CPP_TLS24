@@ -24,7 +24,7 @@ string BarangRandom(int section) {
             barang = barangruangtidur[rand() % barangruangtidur.size()];
             break;
         default:
-            barang = "Nothing";
+            barang = "Tidak ada";
             break;
     }
 
