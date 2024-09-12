@@ -1,7 +1,7 @@
 #include <iostream>
-#include <vector>
 #include <cstdlib>
 #include <ctime>
+#include <vector>
 
 using namespace std;
 
@@ -37,6 +37,7 @@ int main() {
     int pilihan;
     bool menggeledah = true;
 
+
     cout << "Jadi ceritanya kamu sedang kabur dari gerombolan zombi! Kemudian kamu menemukan sebuah rumah terbengkalai dan memutuskan untuk bersembunyi sambil menggeledah isi rumah tersebut.\n";
 
     while (menggeledah) {
@@ -50,7 +51,6 @@ int main() {
         string barangTemuan = BarangRandom(pilihan);
         cout << "Kamu menemukan: " << barangTemuan << "!\n";
         BarangDiambil.push_back(barangTemuan);
-        jumlahbarang++;
 
         cout << "\nSelanjutnya, apa yang akan kamu lakukan:\n";
         cout << "1. Melanjutkan Geledah rumah\n";
